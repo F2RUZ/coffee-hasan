@@ -1,0 +1,65 @@
+.intro {
+  margin-top: 50px;
+  width: 100%;
+  background-image: url(../img/Bitmap.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  padding: 110px 100px 130px;
+  &__box {
+    width: 40%;
+    // padding: 0 80px;
+    border-radius: 8px;
+  }
+  &__title {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 35px;
+    color: #fefcf7;
+  }
+  &__text {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #fefcf7;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .intro {
+    background-position-x: 50%;
+    background-size: auto;
+    padding: 110px 20px;
+
+    &__box {
+      width: 100%;
+    }
+    &__title {
+      /* Create a plan */
+      width: 100%;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 40px;
+      text-align: center;
+      color: #fefcf7;
+    }
+    &__text {
+      /* Build a subscription */
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #fefcf7;
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+  }
+}
